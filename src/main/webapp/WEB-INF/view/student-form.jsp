@@ -4,10 +4,12 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Home</title>
+<title>Insert title here</title>
 </head>
 <body>
-<h1>First MVC example with Spring</h1>
-<a href="students">Go to students form</a>
+	<form method="get" action="students/process">
+		<input type="text" name="name"/>
+		<button type="submit">Submit</button>
+	</form>
 </body>
 </html>

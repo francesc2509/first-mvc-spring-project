@@ -4,10 +4,9 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Home</title>
+<title>Insert title here</title>
 </head>
 <body>
-<h1>First MVC example with Spring</h1>
-<a href="students">Go to students form</a>
+Hello ${param.name}!
 </body>
 </html>
