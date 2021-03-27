@@ -7,6 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-Hello ${param.name}!
+<p>Hello ${param.name}!</p>
+<p>${message}</p>
 </body>
 </html>

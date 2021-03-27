@@ -11,5 +11,10 @@
 		<input type="text" name="name"/>
 		<button type="submit">Submit</button>
 	</form>
+	
+	<form method="get" action="students/process-v2">
+		<input type="text" name="name"/>
+		<button type="submit">Submit</button>
+	</form>
 </body>
 </html>
